@@ -10,6 +10,8 @@
 __pycache__/*
 .cache/*
 .*.swp
+*/.ipynb_checkpoints/*
+enrichreport/config.py
 
 # Project files
 .ropeproject
@@ -25,6 +27,9 @@ __pycache__/*
 *.egg-info
 
 # Unittest and coverage
+tests/*
+!tests/*.py
+!tests/data
 htmlcov/*
 .coverage
 .tox
